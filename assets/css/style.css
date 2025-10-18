@@ -1,0 +1,14 @@
+/* EliteServiceSet custom styles */
+body{font-family: 'Helvetica Neue', Arial, sans-serif; background:#fff;color:#222;}
+.hero{padding:40px 0;}
+.card-project{border:0;border-radius:12px;overflow:hidden}
+.card-project img{width:33.3%;height:auto;display:inline-block}
+.projects-grid{column-count:1;column-gap:1rem;margin-top:1rem}
+@media (max-width:991px){ .projects-grid{column-count:2} }
+@media (max-width:575px){ .projects-grid{column-count:1} }
+.project-card{display:inline-block;width:100%;margin:0 0 1rem;}
+.team-photo{width:120px;height:120px;object-fit:cover;border-radius:50%}
+.carousel-caption{background:rgba(0,0,0,0.35);padding:10px;border-radius:6px;}
+
+
+
