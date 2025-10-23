@@ -82,7 +82,7 @@ require_once __DIR__ . '/functions.php';
 
         <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    ABOUT US
+    About Us
   </a>
   <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
     <li><a class="dropdown-item" href="about.php">« About Our Company</a></li>

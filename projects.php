@@ -17,18 +17,21 @@
             class="btn btn-sm btn-outline-secondary me-1" data-filter="Commercial">Commercial</a></div>
 </section>
 <div class="projects-grid">
-    <?php foreach($projects as $p): ?>
-    <div class="project-card" style="width:450px;" data-type="<?=esc($p['type'])?>">
-        <div class="card card-project shadow-sm">
-            <img style="width:100%;" data-src="<?php if(!empty($p['image'])) echo 'assets/uploads/'.esc($p['image']); else echo 'assets/uploads/proj_res1.jpg'; ?>"
-                src="assets/uploads/proj_res1.jpg" loading="lazy" alt="<?=esc($p['title'])?>">
-            <div class="p-3">
-                <h5 class="mb-1"><?=esc($p['title'])?></h5>
-                <p class="small text-muted mb-0"><?=esc(substr($p['description'],0,120))?>...</p>
+
+        <?php foreach($projects as $p): ?>
+        <div class="project-card" style="width:450px;"  data-type="<?=esc($p['type'])?>">
+            <div class="card card-project shadow-sm">
+                <img style="width:100%;height:400px;" data-src="<?php if(!empty($p['image'])) echo 'assets/uploads/'.esc($p['image']); else echo 'https://source.unsplash.com/800x600/?'.urlencode($p['type']).'%2Cinterior'; ?>"
+                    src="<?php if(!empty($p['image'])) echo 'assets/uploads/'.esc($p['image']); else echo 'https://source.unsplash.com/800x600/?'.urlencode($p['type']).'%2Cinterior'; ?>" loading="lazy" alt="<?=esc($p['title'])?>">
+
+                <div class="p-3">
+                    <h5 class="mb-1"><?=esc($p['title'])?></h5>
+                    <p class="small text-muted mb-0"><?=esc(substr($p['description'],0,120))?>...</p>
+                </div>
             </div>
         </div>
-    </div>
-    <?php endforeach; ?>
+        <?php endforeach; ?>
+    
 </div>
 
 <section class="mb-5">

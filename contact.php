@@ -19,10 +19,28 @@
         </div>
         <div class="col-md-6 mb-5 pl-5">
         <h4 class="text-uppercase text-danger mb-3">Get in Touch</h4>
+
+        <p class="mb-5"><strong>“
+        &nbsp;&nbsp;Almost Any Task<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Just Ask&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”</strong>
+</h5>
         <p>
-          <i class="bi bi-geo-alt-fill text-danger"></i> Kigali, Rwanda<br>
-          <i class="bi bi-telephone-fill text-danger"></i> +250 789 000 111<br>
-          <i class="bi bi-envelope-fill text-danger"></i> info@eliteserviceset.com
+
+        <i class="bi bi-telephone-fill text-danger"></i> &nbsp;&nbsp;&nbsp;+251 91 194 6817<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +251 90 200 0099<br><br>
+
+          <i class="bi bi-envelope-fill text-danger"></i>&nbsp;&nbsp;&nbsp; both@eliteserviceset.com<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@eliteserviceset.com<br><br>
+
+
+          <i class="bi bi-globe text-danger"></i>&nbsp;&nbsp;&nbsp;&nbsp;www.eliteserviceset.com <br/><br/>
+
+
+          <i class="bi bi-geo-alt-fill text-danger"></i>&nbsp;&nbsp;&nbsp; Mina Building<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wolo Sefer , Ethio-China Road<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Addis Ababa, Ethiopia<br><br/>
+          
+        
         </p>
 
         <h4 class="text-uppercase text-danger mb-5">Follow Us</h4>

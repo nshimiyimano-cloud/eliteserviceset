@@ -72,24 +72,43 @@
           <li><a href="about.php" class="footer-link">« About Us</a></li>
           <li><a href="services.php" class="footer-link">« Services</a></li>
           <li><a href="contact.php" class="footer-link">« Contact</a></li>
-          <li><a href="admin/login.php" class="footer-link">« Admin Login</a></li>
+          <li><a href="admin/login.php" class="footer-link">« Login</a></li>
         </ul>
       </div>
 
       <!-- Contact & Social -->
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase text-warning mb-3">Get in Touch</h5>
-        <p class="small">
+        <!----<p class="small">
           <i class="bi bi-geo-alt-fill text-warning"></i> Kigali, Rwanda<br>
           <i class="bi bi-telephone-fill text-warning"></i> +250 789 000 111<br>
           <i class="bi bi-envelope-fill text-warning"></i> info@eliteserviceset.com
-        </p>
+        </p>--> 
+
+        <p class="small">
+
+<i class="bi bi-telephone-fill text-warning"></i> &nbsp;&nbsp;&nbsp;+251 91 194 6817<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +251 90 200 0099<br><br>
+
+  <i class="bi bi-envelope-fill text-warning"></i>&nbsp;&nbsp;&nbsp; both@eliteserviceset.com<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@eliteserviceset.com<br><br>
+
+
+  <i class="bi bi-globe text-warning"></i>&nbsp;&nbsp;&nbsp;&nbsp;www.eliteserviceset.com <br/><br/>
+
+
+  <i class="bi bi-geo-alt-fill text-warning"></i>&nbsp;&nbsp;&nbsp; Mina Building<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wolo Sefer , Ethio-China Road<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Addis Ababa, Ethiopia<br><br/>
+  
+
+</p>
         <div class="social-icons">
            
-      <a  href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-      <a  href="https://facebook.com/username" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
-      <a  href="https://twitter.com/username" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
-      <a  href="https://twitter.com/username" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+      <a   href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp text-warning"></i></a>
+      <a  href="https://facebook.com/username" target="_blank" title="Facebook"><i class="bi bi-facebook text-warning"></i></a>
+      <a  href="https://twitter.com/username" target="_blank" title="Twitter"><i class="bi bi-twitter text-warning"></i></a>
+      <a  href="https://twitter.com/username" target="_blank" title="Linkedin"><i class="bi bi-linkedin text-warning"></i></a>
   
         </div>
       </div>
@@ -97,11 +116,13 @@
     </div>
 
     <hr class="border-light">
-    <div class="text-center text-dark">
+    
+  </div>
+  
+</footer>
+<div class="text-center pt-3 text-danger bg-dark" style="height:50px;border-bottom:2px solid rgb(128, 102, 64);">
       &copy; <?= date('Y') ?> <strong>EliteServiceSet</strong>. All rights reserved.
     </div>
-  </div>
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/script.js"></script>
