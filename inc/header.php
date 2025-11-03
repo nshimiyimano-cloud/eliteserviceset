@@ -31,6 +31,7 @@ require_once __DIR__ . '/functions.php';
     z-index: 1;
     position:sticky;
     top:0px;
+    border-bottom:4px solid #a00092;
   }
   .navbar .nav-item{
     padding:15px 10px
@@ -38,6 +39,7 @@ require_once __DIR__ . '/functions.php';
   .navbar .nav-item a{
     color:#000;
     font-weight:bold;
+    border-bottom:1px dotted #C8A165;
   }
   .navbar .nav-item a:hover{
     color:#fff;

@@ -57,9 +57,9 @@
 </section>
 <section class="mb-5">
     <div class="row g-0 align-items-center">
-        <div class="col-md-6"><img src="assets/uploads/contact_block.jpg" class="img-fluid rounded-start" alt="contact"
+        <div class="col-md-6"><img src="assets/uploads/contact-us-Image.webp" style="border-radius:50%;" class="img-fluid rounded-start" alt="contact"
                 style="width:100%;height:100%;object-fit:cover;" /></div>
-        <div class="col-md-6 p-4">
+        <div class="col-md-6 p-4" style="background-color:#a00092">
             <h3>Visit Our Office</h3>
             <p>We are available by appointment. Use the form to request a consultation and we'll get back to you within
                 48 hours.</p>

@@ -30,24 +30,25 @@ $services = $pdo->query("SELECT * FROM services ORDER BY id DESC LIMIT 2")->fetc
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/uploads/carousel_living.jpg" class="d-block w-100" alt="...">
+            <img src="assets/uploads/carousel_bathroom.jpg" class="d-block w-100" style="height:450px;" alt="...">
             <div class="carousel-caption d-none d-md-block" style="background:#C8A165;">
-                <h5>Transforming Spaces with Style</h5>
-                <p>EliteServiceSet - Commercial & Residential Renovation Experts</p>
+                
+                <h5 style="color:#333;">Beautiful Kitchens, Every Day</h5>
+                <p>Functional layouts and premium finishes.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="assets/uploads/carousel_bathroom.jpg" class="d-block w-100" alt="...">
+            <img src="assets/uploads/accomoddation.jpg" class="d-block w-100" style="height:450px;" alt="...">
             <div class="carousel-caption d-none d-md-block" style="background:#C8A165;">
-                <h5>Modern Interiors, Timeless Comfort</h5>
+                <h5 style="color:#333;">Modern Interiors, Timeless Comfort</h5>
                 <p>Thoughtful design and expert execution.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="assets/uploads/carousel_kitchen.jpg" class="d-block w-100" alt="...">
+            <img src="assets/uploads/House_room.jpg" class="d-block w-100" style="height:450px;" alt="...">
             <div class="carousel-caption d-none d-md-block" style="background:#C8A165;">
-                <h5>Beautiful Kitchens, Every Day</h5>
-                <p>Functional layouts and premium finishes.</p>
+            <h5 style="color:#333;">Transforming Spaces with Style</h5>
+            <p>EliteServiceSet - Commercial & Residential Renovation Experts</p>
             </div>
         </div>
     </div>
@@ -154,8 +155,8 @@ $services = $pdo->query("SELECT * FROM services ORDER BY id DESC LIMIT 2")->fetc
             <h5><small>Living room design ideas</small></h5>
             <p>Scroll through our gallery to discover varied styles — from minimal modern to classic luxury. Each
                 section is filled with inspirational images and details about the work we did for our clients.</p>
-            <p class="small text-danger">Tip: Click any project to view details or visit the Projects page for a complete
-                portfolio.</p>
+            <p class="small text-danger"><a href="http://localhost/eliteserviceset/services.php" target="_blank" rel="noopener noreferrer">Click here to view more services on our service page for a complete
+            portfolio.</a> </p>
         </div>
     </div>
 </section>

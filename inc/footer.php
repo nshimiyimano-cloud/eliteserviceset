@@ -5,7 +5,9 @@
 <style>
   
   footer {
-    background: rgb(200, 161, 101) !important;
+   /* background: rgb(200, 161, 101) !important; 
+   #C8A165*/
+   background:#a00092 !important;
   }
   
   .footer-link {
@@ -44,9 +46,9 @@
 
 
 </style>
-<section class="footer-waves">
+<section class="footer-waves" style="margin-bottom:-1px;">
   <svg viewBox="0 0 1440 320" class="footer-wave-svg">
-    <path fill="#C8A165" fill-opacity="1"
+    <path fill="#a00092" fill-opacity="1"
       d="M0,192L48,208C96,224,192,256,288,261.3C384,267,480,245,576,213.3C672,181,768,139,864,128C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
     </path>
   </svg>
@@ -66,7 +68,7 @@
 
       <!-- Quick Links -->
       <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase text-warning mb-3">Quick Links</h5>
+        <h5 class="text-uppercase text-warning mb-3" style="border-bottom:1px dotted #a00092;">Quick Links</h5>
         <ul class="list-unstyled">
           <li><a href="index.php" class="footer-link">« Home</a></li>
           <li><a href="about.php" class="footer-link">« About Us</a></li>
@@ -78,7 +80,7 @@
 
       <!-- Contact & Social -->
       <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase text-warning mb-3">Get in Touch</h5>
+        <h5 class="text-uppercase text-warning mb-3" style="border-bottom:1px dotted #a00092;">Get in Touch</h5>
         <!----<p class="small">
           <i class="bi bi-geo-alt-fill text-warning"></i> Kigali, Rwanda<br>
           <i class="bi bi-telephone-fill text-warning"></i> +250 789 000 111<br>
